@@ -1,0 +1,127 @@
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding-top: 15px;
+padding-bottom: 15px;}
+#gmail a:link{
+    text-decoration:none;}
+#gmail a:hover{
+    text-decoration: underline;}
+#gmail{
+    padding-right: 20px;}
+#images{
+    padding-right: 20px;}
+#images a:link{
+        text-decoration:none;}
+#images a:hover{
+        text-decoration: underline;}
+#menu{
+    padding-right: 20px;}
+#menu #icon{
+    color: white;}
+#menu #icon:hover{
+    box-shadow: 0px 0px 0px 5px grey;
+    border-radius: 50%;
+    background-color: grey;}
+#profile{ 
+    padding-right: 20px;}
+#profile #icon{
+    border-radius: 50%;}
+#profile #icon:hover{
+    box-shadow: 0px 0px 0px 5px grey;}
+#main{
+display: flex;
+text-align: center;
+flex-direction: column;}
+#searchbar{
+   position: relative;
+   background-color:transparent;
+   border-radius: 24px;
+   width: 580px;
+   margin-top: 20px;
+   height: 45px;
+   border-color:#5f6368;
+   box-sizing: border-box;
+   border-width: 0.25px;
+   padding-left: 50px;
+   padding-right: 50px;
+   color: white;}
+#searchbar:hover{
+    background-color: #53565b;}
+#searchbar:focus{
+    outline: none;}
+#find{
+    color: white;
+    position:absolute ;
+    padding-top:32px;
+    padding-left: 20px;
+    color: #9aa0a6;
+    z-index: 2;}
+#searchbutton{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #303134;
+    border-color: transparent;
+    color: white;
+    border-radius: 4px;
+    font-size: 14;
+    height: 36px;
+    width: 54;}
+#searchbutton:hover{
+    cursor:pointer;
+    border-color: #5f6368;
+    border-width:1px;}
+#searchbutton:active{
+    border-color: lightblue;}
+#language{
+    color: white;}
+#text{
+    font-size: 12px;
+    margin-top: 28px;}
+#text1:link{
+    color: #889ace;
+    text-decoration: none;}
+#text1:hover{
+    text-decoration: underline;}
+#text1{
+    padding-left: 5px;}
+#text1:visited{
+    color: #889ace;}
+#footer1{    
+    padding: 15px 30px;
+    border-bottom: 1px solid #212327;
+    font-size: 15px;
+    color: rgba(255,255,255,.54);}
+#footer2{   
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:#171717;
+    height: 45px;}
+#footer1{
+    position:absolute;
+    bottom: 45px;px;
+    left:-10px;
+    background-color: #171717;
+    right:0;
+    height: 20px;}
+#left{
+    padding-left: 20px;
+    padding-top: 15px;}
+#right{
+    padding-right: 20px;
+    padding-top: 15px;}
+#text2{
+    color:rgba(255,255,255,.54) ;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 13px;
+    padding-right: 13px;}
+#text2:hover{
+    text-decoration: underline;}
